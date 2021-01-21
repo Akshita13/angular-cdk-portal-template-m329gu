@@ -8,7 +8,7 @@ import { OverlayConfig, Overlay, OverlayRef } from '@angular/cdk/overlay';
 @Component({
   selector: 'my-app',
   template: `
-       <h1> Reactive Contact Form Example </h1>
+       <h1> Template portal example </h1>
 <div>
 <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
   <input type = "text" name = "fullName" placeholder = "Your full name" formControlName="fullName" >
